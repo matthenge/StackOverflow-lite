@@ -54,6 +54,11 @@ article#middle-col{
     width: 85%;
     background-color: rgb(205, 231, 241);
     padding-left: 15px;
+}
+article#signup-col{
+    width: 100%;
+    background-color: rgb(205, 231, 241);
+    padding-left: 0px;
 } 
 
 aside#sidebar{
@@ -115,6 +120,7 @@ a.btn{
 }
 
 @media(max-width: 768px){
+    article#signup-col,
     header #logo,
     header nav,
     header nav li,
