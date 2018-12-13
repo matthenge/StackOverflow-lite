@@ -30,6 +30,12 @@ header li{
 header #logo{
     float: left;
 }
+
+header .highlight{
+    color: rgb(162, 215, 233);
+    font-weight: bold;
+}
+
 header #logo a{
     float: right;
     margin-top: 5px;
@@ -38,10 +44,7 @@ header nav{
     float: right;
     margin-top: 5px;
 }
-header .highlight{
-    color: rgb(162, 215, 233);
-    font-weight: bold;
-}
+
 header a:hover{
     color: rgb(11, 80, 104);
 }
@@ -50,7 +53,7 @@ article#middle-col{
     float: right;
     width: 85%;
     background-color: rgb(205, 231, 241);
-    padding-left: 10px;
+    padding-left: 15px;
 } 
 
 aside#sidebar{
