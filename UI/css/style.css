@@ -1,0 +1,135 @@
+body{
+    font: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(170, 226, 245);
+}
+.container{
+    width: 99%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+header{
+    background: rgb(11, 80, 104);
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    min-height: 50px;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    display: inline;
+}
+header #logo{
+    float: left;
+}
+
+header .highlight{
+    color: rgb(162, 215, 233);
+    font-weight: bold;
+}
+
+header #logo a{
+    float: right;
+    margin-top: 5px;
+}
+header nav{
+    float: right;
+    margin-top: 5px;
+}
+
+header a:hover{
+    color: rgb(11, 80, 104);
+}
+
+article#middle-col{
+    float: right;
+    width: 85%;
+    background-color: rgb(205, 231, 241);
+    padding-left: 15px;
+} 
+
+aside#sidebar{
+    float: left;
+    width: 14%;
+    border-radius: 5%;
+    margin-top: 5px;
+    background-color: rgb(11, 80, 104);
+    margin-bottom: 5px;
+    position: fixed;
+    padding-left: 0px;
+}
+aside#sidebar a{
+    display: block;
+}
+aside#sidebar a:hover{
+    color: rgb(11, 80, 104);
+}
+aside#sidebar li{
+    display: block;
+    float: center;
+}
+
+footer{
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(11, 80, 104);
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
+}
+footer a{
+    padding: 10px;
+}
+
+.fab {
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.fab:hover {
+    color: rgb(31, 201, 207);
+    text-decoration: none;
+}
+a.btn{
+	padding:10px 20px 10px 20px;
+	margin:0 0.3em 0.3em 0;
+	border-radius:2em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-weight:300;
+	color:rgb(58, 123, 213);
+    background-color: rgb(166, 225, 245);
+	text-align: center;
+	transition-duration: 0.2s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.294), 0 6px 20px 0 rgba(0, 0, 0, 0.294);
+}
+
+@media(max-width: 768px){
+    header #logo,
+    header nav,
+    header nav li,
+    article#middle-col,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px; 
+    }
+    
+    .fab {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
