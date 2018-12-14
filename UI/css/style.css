@@ -54,6 +54,10 @@ article#middle-col{
     width: 85%;
     background-color: rgb(205, 231, 241);
     padding-left: 15px;
+}
+article#signup-col{
+    width: 100%;
+    background-color: rgb(205, 231, 241);
 } 
 
 aside#sidebar{
@@ -78,7 +82,7 @@ aside#sidebar li{
 }
 
 footer{
-    padding: 20px;
+    padding: 15px;
     color: rgb(255, 255, 255);
     background-color: rgb(11, 80, 104);
     text-align: center;
@@ -113,8 +117,59 @@ a.btn{
 	transition-duration: 0.2s;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.294), 0 6px 20px 0 rgba(0, 0, 0, 0.294);
 }
+a.signupbtn{
+	padding:10px 20px 10px 20px;
+    margin: 5px;
+	border-radius:2em;
+	box-sizing: border-box;
+	text-decoration:none;
+	font-weight: 500;
+	color:rgb(58, 123, 213);
+    background-color: rgb(166, 225, 245);
+	text-align: center;
+	transition-duration: 0.2s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.294), 0 6px 20px 0 rgba(0, 0, 0, 0.294);
+    
+}
+.fields{
+    position: relative;
+    padding: 2px;
+}
+.signuplogo{
+    color: rgb(58, 123, 213);
+}
+.signin{
+    text-decoration: none;
+    font-size: medium;
+}
+.button{
+    margin-top: 10px;
+}
+.box{
+    background:white;
+    width:300px;
+    border-radius:5px;
+    margin: auto;
+    padding: 10px; 
+    margin-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(7, 194, 184, 0.609), 0 6px 20px 0 rgba(7, 194, 184, 0.609);
+    text-align: center;
+  }
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    vertical-align: middle;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input{
+    color: black;
+    padding-bottom: 5px;
+  }
 
 @media(max-width: 768px){
+    article#signup-col,
     header #logo,
     header nav,
     header nav li,
