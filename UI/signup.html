@@ -25,21 +25,31 @@
     <section>
         <div class="container">
             <article id="signup-col">
-                	<p class="title">StackOverflow-lite</p>
-	                <p class="message">Create an account</p>
-	                <div class="form-group">
-		                <input type="text" class="input" placeholder="Username">
-	                </div>
-	                <div class="form-group">
-		                <input type="text" class="input" placeholder="Password">
-                    </div>
-	                <div  class="form-group">
-		                <input type="text" class="input" placeholder="Repeat Password">
-	                </div>
-	                <div style="margin-top: 10px" class="column">
-		                <a href="#" class="btn"> Sign Up </a>
-	                </div>
-	                <p class="instruction">Already have an account? <a class="signin" href="signin.html">Sign In</a></p>
+                <div class="signupform">
+                    <form method="post" action="signup.html">
+                        <div class="box">
+                            <h1><span class="signuplogo"> <i class="fa fa-bars" aria-hidden="true"></i>StackOverflow</span></h1>       
+                            <img src="images/man.svg" alt="person image" class="image">            
+                            <p>Create an account</p>
+                            <div class="fields">
+                                <input type="email" class="input" placeholder="Email">
+                            </div>         
+                            <div class="fields">
+                                <input type="text" class="input" placeholder="Username">
+                            </div>        
+                            <div class="fields">
+                                <input type="password" class="input" placeholder="Password">
+                            </div>       
+                            <div  class="fields">
+                                <input type="password" class="input" placeholder="Repeat Password">
+                            </div>       
+                            <div class="button">
+                                <a href="#" class="signupbtn"> Sign Up </a>
+                            </div>         
+                            <p>Already have an account? <a class="signin" href="#">Sign In</a></p>
+                        </div>
+                    </form>
+                </div>
             </article>
         </div>
     </section>
