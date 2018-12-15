@@ -168,6 +168,43 @@ a.signupbtn{
     padding-bottom: 5px;
   }
 
+.column-layout{
+   
+}
+.main-col{
+    flex: 4;
+    order: 2;
+    background-color: whitesmoke;
+    margin-right: 5px;
+}
+.left-sidebar{
+    flex: 1;
+    order: 1;
+    margin-right: 5px;
+    background-color: rgb(205, 231, 241);
+}
+.right-sidebar{
+    flex: 1;
+    order: 3;
+    margin-right: 5px;
+    background-color: rgb(205, 231, 241);
+}
+.question-container{
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.question{
+    width: 98%;
+}
+.question-text{
+    width:98%;
+    height: 100px;
+    text-align: left;
+}
+
 @media(max-width: 768px){
     article#signup-col,
     header #logo,
@@ -186,5 +223,12 @@ a.signupbtn{
     .fab {
         font-size: 20px;
         padding: 10px;
+    }
+}
+
+@media(min-width: 900px){
+    .column-layout{
+        display: flex;
+        justify-content: space-between;
     }
 }
