@@ -100,6 +100,12 @@ footer a{
     font-size: 25px;
     color: rgb(0, 0, 0);
 }
+.fa-sort{
+    color: rgb(58, 123, 213);
+    font-size: 1.5em;
+    padding-right: 4px;
+    text-shadow: 1px 1px 1px rgb(11, 80, 104);
+}
 .fab:hover {
     color: rgb(31, 201, 207);
     text-decoration: none;
