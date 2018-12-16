@@ -180,7 +180,7 @@ a.signupbtn{
     margin-bottom: 20px;
 }
 .askbtn{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 .box{
@@ -225,7 +225,6 @@ a.signupbtn{
 .left-sidebar li{
     display: block;
     padding-bottom: 30px;
-
     margin-left: 0;
 }
 .right-sidebar{
@@ -245,12 +244,11 @@ a.signupbtn{
     width: 98%;
 }
 .question-text{
-    width:98%;
-    height: 100px;
     text-align: left;
+    width: 98%;
 }
-.search{
-
+.tags li{
+    display: inline;
 }
 
 @media(max-width: 768px){
