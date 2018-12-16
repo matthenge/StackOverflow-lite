@@ -16,34 +16,69 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a class="btn" href="#"><i class="fa fa-fw fa-home"></i> Home </a></li>
-                        <li><a class="btn" href="#"><i class="fas fa-question"></i> Ask Question </a></li>
-                        <li><a class="btn" href="#"><i class="fa fa-fw fa-search"></i> Search </a></li>
-                        <li><a class="btn" href="#"><i class="fa fa-fw fa-user"></i> Login </a></li>
+                            <li><a class="sidebtn" href="#"><i class="fas fa-search"></i><input type="text" size="30" class="search" placeholder="Search"></a></li>
+                        <li><a class="btn" href="index.html"><i class="fa fa-fw fa-home"></i> Home </a></li>
+                        <li><a class="btn" href="ask.html"><i class="fas fa-question"></i> Ask Question </a></li>
+                        <li><a class="btn" href="login.html"><i class="fa fa-fw fa-user"></i> Login </a></li>
                     </ul>
                 </nav>
             </div>
     </header>
     <section>
-        <div class="container">
-            <article id="middle-col">
-                <h1>StackOverflow-lite</h1>
-                <p>StackOverflow-lite is a platform where people can ask questions and provide answers</p>
-                <p>This is a platform where devolopers learn, share and build careeers</p>
-            </article>
-
-            <aside id="sidebar">
-                <div>
-                    <ul>
-                        <li><a class="btn" href="#"><i class="fa fa-fw fa-home"></i>Home</a></li>
-                        <li><a class="btn" href="#"><i class="fas fa-question"></i>Questions</a></li>
-                    </ul>
+        <div class="column-layout">
+            <div class="main-col">
+                <div class="question-con">
+                    <h4>Creating a search box with results on map using php, pgadmin(SQL) and html</h4>
+                    <div class="tags">
+                        <ul>
+                            <li><a class="btn" href="#">php</a></li>
+                            <li><a class="btn" href="#">pgadmin</a></li>
+                            <li><a class="btn" href="#">sql</a></li>
+                            <li><a class="btn" href="#">html</a></li>
+                        </ul>
+                    </div>
+                    <h4>1 Answer</h4>
                 </div>
-            </aside>
+                <div class="question-con">
+                    <h4>Is it possible to enable INFO level log from JSP(Jsp imports Java Classes)?</h4>
+                    <div class="tags">
+                        <ul>
+                            <li><a class="btn" href="#">java</a></li>
+                            <li><a class="btn" href="#">jsp</a></li>
+                            <li><a class="btn" href="#">java.util.logging</a></li>
+                        </ul>
+                    </div>
+                    <h4>0 Answers</h4>
+                </div>
+                <div class="question-con">
+                    <h4>Django - Limit choices to choose what are not chosen in admin form</h4>
+                    <div class="tags">
+                        <ul>
+                            <li><a class="btn" href="#">python</a></li>
+                            <li><a class="btn" href="#">django</a></li>
+                            <li><a class="btn" href="#">api</a></li>
+                        </ul>
+                    </div>
+                    <h4>2 Answers</h4>
+                </div>
+            </div>
+            <div class="left-sidebar">
+                <ul>
+                    <li><a class="sidebtn" href="index.html"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                    <li><a class="sidebtn" href="questions.html"><i class="fas fa-question"></i>Questions</a></li>
+                </ul>
+            </div>
+            <div class="right-sidebar">
+                <h3>Popular Questions</h3>
+                <ul>
+                    <li><a href="#">Recover lost data in block-chain</a></li>
+                    <li><a href="#">How to create dataset of images from folder</a></li>
+                    <li><a href="#">How to create a masonry layout in react native using flat list</a></li>
+                    <li><a href="#">Setting Heroku debug rails runner</a></li>
+                </ul>
+            </div>
         </div>
     </section>
-   
-
     <footer>
         <div class="container">
             <a class="btn">&copy; 2018 StackOverflow-lite Inc.</a>
